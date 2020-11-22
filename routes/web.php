@@ -1,6 +1,5 @@
 <?php
 
-use App\Models\Card;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CardController;
 

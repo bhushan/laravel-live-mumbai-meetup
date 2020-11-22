@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use App\Models\Traits\Cacheable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Card extends Model
 {
-    use HasFactory;
+    use HasFactory, Cacheable;
 
     public function notes()
     {
